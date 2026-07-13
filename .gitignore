@@ -6,3 +6,4 @@ __pycache__/
 data/raw/*.parquet
 data/staging/*.parquet
 .pytest_cache/
+tutorial/
