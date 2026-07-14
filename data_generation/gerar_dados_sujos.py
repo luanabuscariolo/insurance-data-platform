@@ -1,11 +1,10 @@
 """Gera dados sintéticos de seguros, com sujeira proposital, na pasta data/raw/."""
-from pathlib import Path
 from datetime import date, timedelta
-import random
-import string
-
+from pathlib import Path
 from faker import Faker
 import pandas as pd
+import random
+import string
 
 fake = Faker("pt_BR")
 Faker.seed(42)
