@@ -1,0 +1,96 @@
+# (1) Postgres de metadados do Airflow, 
+# (2) Postgres de dados (nosso "warehouse"),
+# (3) init do Airflow, 
+# (4) webserver, 
+# (5) scheduler.
+
+x-airflow-comum: &airflow-comum
+  build:
+    context: .
+    dockerfile: Dockerfile.airflow
+  environment: &airflow-env
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor          
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"        
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true" 
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres-metadados:5432/airflow
+    AIRFLOW_CONN_WAREHOUSE: postgresql://seguros:seguros@warehouse:5432/segurosdw
+    RAW_DIR: /opt/airflow/data/raw
+  volumes:
+    - ./pipelines/dags:/opt/airflow/dags     
+    - ./data:/opt/airflow/data              
+    - ./logs:/opt/airflow/logs            
+  depends_on:
+    postgres-metadados:
+      condition: service_healthy
+
+services:
+  # (1) Banco de METADADOS do Airflow
+  postgres-metadados:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - vol-metadados:/var/lib/postgresql/data
+    healthcheck:                             
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
+
+  # (2) Nosso WAREHOUSE 
+  warehouse:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: seguros
+      POSTGRES_PASSWORD: seguros
+      POSTGRES_DB: segurosdw
+    ports:
+      - "5433:5432"          
+    volumes:
+      - vol-warehouse:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "seguros"]
+      interval: 5s
+      retries: 5
+
+  # (3) INIT — roda UMA vez: prepara o banco de metadados e cria o usuário admin.
+  airflow-init:
+    <<: *airflow-comum
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        airflow db migrate
+        airflow users create \
+          --username admin --password admin \
+          --firstname Admin --lastname User \
+          --role Admin --email admin@example.com
+
+  # (4) WEBSERVER — a interface web em http://localhost:8080
+  airflow-webserver:
+    <<: *airflow-comum
+    command: webserver
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres-metadados:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully   
+    restart: always
+
+  # (5) SCHEDULER — o cérebro que dispara as tarefas
+  airflow-scheduler:
+    <<: *airflow-comum
+    command: scheduler
+    depends_on:
+      postgres-metadados:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+    restart: always
+
+volumes:
+  vol-metadados:
+  vol-warehouse:

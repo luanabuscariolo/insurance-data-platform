@@ -7,3 +7,4 @@ data/raw/*.parquet
 data/staging/*.parquet
 .pytest_cache/
 tutorial/
+_projeto_completo/

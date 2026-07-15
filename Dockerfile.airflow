@@ -1,0 +1,10 @@
+# Partir da imagem oficial do Airflow numa versão estável 2.x.
+# (Se este tag exato não existir no Docker Hub, troque pelo 2.10.x mais recente.)
+FROM apache/airflow:2.10.4
+
+# Copia a lista de dependências extras para dentro da imagem.
+COPY requirements-airflow.txt /requirements-airflow.txt
+
+# Instala as libs. Roda como o usuário 'airflow' (padrão da imagem),
+# não como root — a imagem oficial exige isso por segurança.
+RUN pip install --no-cache-dir -r /requirements-airflow.txt

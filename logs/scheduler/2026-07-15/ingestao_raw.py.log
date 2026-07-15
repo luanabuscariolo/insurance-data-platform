@@ -1,0 +1,190 @@
+[2026-07-15T18:31:26.928+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:31:26.929+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:31:26.931+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:31:26.930+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:31:27.353+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:31:27.520+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:31:27.520+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:ingestao_raw
+[2026-07-15T18:31:27.527+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:31:27.526+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:ingestao_raw
+[2026-07-15T18:31:27.533+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:31:27.532+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:ingestao_raw
+[2026-07-15T18:31:27.540+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:31:27.539+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:ingestao_raw
+[2026-07-15T18:31:27.546+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:31:27.545+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:ingestao_raw
+[2026-07-15T18:31:27.551+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:31:27.551+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:ingestao_raw
+[2026-07-15T18:31:27.557+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:31:27.557+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:ingestao_raw
+[2026-07-15T18:31:27.558+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:31:27.558+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:31:27.567+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:31:27.566+0000] {dag.py:3262} INFO - Creating ORM DAG for ingestao_raw
+[2026-07-15T18:31:27.574+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:31:27.574+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:31:27.590+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.667 seconds
+[2026-07-15T18:31:57.828+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:31:57.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:31:57.832+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:31:57.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:31:58.201+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:31:58.220+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:31:58.220+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:31:58.233+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:31:58.233+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:31:58.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.433 seconds
+[2026-07-15T18:32:28.325+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:32:28.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:32:28.328+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:32:28.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:32:28.668+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:32:28.685+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:32:28.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:32:28.698+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:32:28.697+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:32:28.722+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.401 seconds
+[2026-07-15T18:32:58.945+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:32:58.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:32:58.948+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:32:58.948+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:32:59.304+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:32:59.324+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:32:59.324+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:32:59.338+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:32:59.338+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:32:59.356+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.415 seconds
+[2026-07-15T18:33:29.566+0000] {processor.py:186} INFO - Started process (PID=199) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:33:29.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:33:29.569+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:33:29.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:33:29.929+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:33:29.949+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:33:29.949+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:33:29.963+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:33:29.963+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:33:29.976+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.414 seconds
+[2026-07-15T18:34:00.200+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:34:00.203+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:34:00.212+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:34:00.211+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:34:00.779+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:34:00.804+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:34:00.804+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:34:00.821+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:34:00.821+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:34:00.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.648 seconds
+[2026-07-15T18:34:47.145+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:34:47.146+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:34:47.148+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:34:47.147+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:34:47.557+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:34:47.595+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:34:47.595+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:34:47.608+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:34:47.608+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:34:47.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.481 seconds
+[2026-07-15T18:35:17.835+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:35:17.835+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:35:17.838+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:35:17.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:35:18.211+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:35:18.232+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:35:18.232+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:35:18.246+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:35:18.246+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:35:18.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.429 seconds
+[2026-07-15T18:35:48.484+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:35:48.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:35:48.491+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:35:48.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:35:49.037+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:35:49.069+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:35:49.068+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:35:49.093+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:35:49.093+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:35:49.119+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.644 seconds
+[2026-07-15T18:36:19.188+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:36:19.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:36:19.191+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:36:19.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:36:19.542+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:36:19.561+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:36:19.561+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:36:19.574+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:36:19.574+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:36:19.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.402 seconds
+[2026-07-15T18:36:49.795+0000] {processor.py:186} INFO - Started process (PID=199) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:36:49.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:36:49.798+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:36:49.798+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:36:50.149+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:36:50.171+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:36:50.171+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:36:50.185+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:36:50.184+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:36:50.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.409 seconds
+[2026-07-15T18:37:20.431+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:37:20.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:37:20.434+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:37:20.434+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:37:20.800+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:37:20.819+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:37:20.819+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:37:20.831+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:37:20.831+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:37:20.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.416 seconds
+[2026-07-15T18:37:51.058+0000] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:37:51.059+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:37:51.060+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:37:51.060+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:37:51.444+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:37:51.464+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:37:51.464+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:37:51.478+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:37:51.478+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:37:51.491+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.437 seconds
+[2026-07-15T18:38:21.702+0000] {processor.py:186} INFO - Started process (PID=217) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:38:21.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:38:21.704+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:38:21.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:38:22.084+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:38:22.106+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:38:22.106+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:38:22.123+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:38:22.123+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:38:22.138+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.441 seconds
+[2026-07-15T18:38:52.349+0000] {processor.py:186} INFO - Started process (PID=223) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:38:52.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:38:52.352+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:38:52.352+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:38:52.742+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:38:52.763+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:38:52.763+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:38:52.778+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:38:52.778+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:38:52.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.449 seconds
+[2026-07-15T18:39:23.004+0000] {processor.py:186} INFO - Started process (PID=229) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:39:23.005+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:39:23.007+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:39:23.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:39:23.479+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:39:23.503+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:39:23.502+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:39:23.519+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:39:23.519+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:39:23.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.537 seconds
+[2026-07-15T18:39:53.741+0000] {processor.py:186} INFO - Started process (PID=235) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:39:53.742+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:39:53.745+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:39:53.744+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:39:54.151+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:39:54.175+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:39:54.175+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:39:54.190+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:39:54.190+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:39:54.205+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.469 seconds
+[2026-07-15T18:40:24.418+0000] {processor.py:186} INFO - Started process (PID=241) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:40:24.419+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:40:24.422+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:40:24.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:40:24.863+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:40:24.889+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:40:24.888+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:40:24.905+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:40:24.905+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:40:24.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.508 seconds
+[2026-07-15T18:40:52.823+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:40:52.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:40:52.825+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:40:52.825+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:40:53.290+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:40:53.320+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:40:53.319+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:40:53.335+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:40:53.335+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:40:53.349+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.532 seconds
+[2026-07-15T18:41:23.551+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:41:23.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:41:23.555+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:41:23.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:41:24.005+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:41:24.025+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:41:24.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:41:24.038+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:41:24.038+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:41:24.051+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.504 seconds
+[2026-07-15T18:41:54.170+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:41:54.171+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:41:54.173+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:41:54.173+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:41:54.587+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:41:54.607+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:41:54.607+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:41:54.623+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:41:54.623+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:41:54.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.471 seconds
+[2026-07-15T18:42:24.844+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:42:24.844+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:42:24.846+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:42:24.846+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:42:25.232+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:42:25.252+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:42:25.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:42:25.267+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:42:25.267+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:42:25.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.442 seconds
+[2026-07-15T18:42:55.485+0000] {processor.py:186} INFO - Started process (PID=199) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:42:55.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:42:55.488+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:42:55.488+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:42:55.874+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:42:55.893+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:42:55.892+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:42:55.907+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:42:55.907+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:42:55.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.441 seconds
+[2026-07-15T18:43:26.150+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:43:26.150+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:43:26.152+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:43:26.152+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:43:26.519+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:43:26.540+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:43:26.540+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:43:26.559+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:43:26.559+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:43:26.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.427 seconds
+[2026-07-15T18:43:56.785+0000] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:43:56.786+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:43:56.788+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:43:56.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:43:57.140+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:43:57.158+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:43:57.158+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:43:57.171+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:43:57.171+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:43:57.184+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.404 seconds
+[2026-07-15T18:44:27.401+0000] {processor.py:186} INFO - Started process (PID=217) to work on /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:44:27.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestao_raw.py for tasks to queue
+[2026-07-15T18:44:27.405+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:44:27.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:44:27.776+0000] {processor.py:925} INFO - DAG(s) 'ingestao_raw' retrieved from /opt/airflow/dags/ingestao_raw.py
+[2026-07-15T18:44:27.796+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:44:27.796+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-15T18:44:27.809+0000] {logging_mixin.py:190} INFO - [2026-07-15T18:44:27.809+0000] {dag.py:4180} INFO - Setting next_dagrun for ingestao_raw to 2026-07-14 00:00:00+00:00, run_after=2026-07-15 00:00:00+00:00
+[2026-07-15T18:44:27.821+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestao_raw.py took 0.425 seconds
