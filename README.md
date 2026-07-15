@@ -1,0 +1,1 @@
+Built an end-to-end insurance data platform with an Airflow-orchestrated ingestion pipeline, data cleaning and validation, analytical modeling with dbt, a FastAPI backend, an interactive dashboard, and a multilingual RAG module evaluated with quality metrics to answer questions about insurance policies. 
